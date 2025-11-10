@@ -9,7 +9,8 @@ namespace AdventOfCode
             // Console.WriteLine(input);
 
             // Day1.CountFloors(input);
-            Day2.WrapingPaper(input);
+            // Day2.WrapingPaper(input);
+            Day3.SantaDuo(input);
         }
     }
 }

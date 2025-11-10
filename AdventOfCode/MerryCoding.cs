@@ -4,7 +4,12 @@ namespace AdventOfCode
     {
         static void Main(string[] args)
         {
-            Day1.CountFloors(Console.ReadLine());
+            string input = File.ReadAllText(@"/Users/renzo/Advent of Code/AdventOfCode/Input.txt");
+
+            // Console.WriteLine(input);
+
+            // Day1.CountFloors(input);
+            Day2.WrapingPaper(input);
         }
     }
 }
